@@ -4,5 +4,5 @@ Feature: greeter says hello
   I want a greeter to say hello
   Scenario: greeter says hello
     Given a greeter
-    When i send it the greet message
-    Then i should see "Hello Cucumber!"
+    When I send it the greet message
+    Then I should see "Hello Cucumber!"
