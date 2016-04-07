@@ -1,12 +1,12 @@
-class MovieList
+class RSpecGreeter
   def greet
     "Hello RSpec !"
   end
 end
 
-describe "MovieList" do
+describe "RSpec Greeter" do
     it "bla1" do
-      greeter = MovieList.new
+      greeter = RSpecGreeter.new
       greeting = greeter.greet
       expect(greeting) == "Hello RSpec !"
     end
