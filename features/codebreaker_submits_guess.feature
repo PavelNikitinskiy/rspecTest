@@ -34,7 +34,7 @@ Feature: code-breaker submits guess
     |1234|5124 |+-- |
     |1234|5123 |--- |
 
-    Scenarios: 3 numbers correct
+    Scenarios: all numbers correct
     |code|guess|mark|
     |1234|1234 |++++|
     |1234|1243 |++--|
